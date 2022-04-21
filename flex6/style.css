@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+
+  display: flex;   
+  flex-direction: column;  /* change to column, so does not flex horizontally */
+
+}
+
+img {
+  width: 600px;
+
+}
+
+button {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #eee;
+
+  padding: 8px 16px;   /* adding padding to the buttons  8px(top&bottom) 16px(left&right)*/
+}
+
+input {
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 8px 24px;
+  width: 400px;
+  margin-bottom: 16px;
+
+
+
+
+}
+
+
+/*added*/
+
+.header{
+    display: flex;
+    padding: 16px;
+    justify-content: space-between;
+    /*group and set the "about" "store" "profile" and "setting" on the top*/
+}
+
+
+
+a{
+    text-decoration: none; /*remmove underline*/
+    color: #666;
+  }
+
+
+
+
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    background-color:#eeeeee;
+    /*group and set the "advertising" "business" "privacy" and "terms" at the bottom*/
+
+}
+
+
+
+
+.content{
+display: flex;
+justify-content: center;
+align-items: center;
+flex: 1; /*remaining full space given to it*/
+flex-direction: column;/*change to column, so it does not flex horizontally*/
+
+
+
+}
+
+
+ul {
+    display: flex;
+    list-style: none; /*remove the dot*/
+    margin: 0; /*set margin and padding to 0*/
+    padding: 0;
+    gap: 16px
+  }

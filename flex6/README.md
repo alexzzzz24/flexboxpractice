@@ -1,0 +1,1 @@
+flexbox practice 6 based on https://github.com/TheOdinProject/css-exercises/tree/main/flex/06-flex-layout
